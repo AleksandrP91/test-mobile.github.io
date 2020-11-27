@@ -1,0 +1,50 @@
+.izabella__block {
+  margin-top: 34px;
+  border-top: 1px solid rgba(0, 0, 0, .3);
+  .block__title {
+    margin-top: 16px;
+    width: 100%;
+    height: 20px;
+    p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+  .block__descr {
+    margin-top: 4px;
+    width: 100%;
+    height: 20px;
+    p {
+      color: #676767;
+      font-size: 12px;
+      font-weight: 400px;
+    }
+  }
+  .block__time {
+    margin-top: 10px;
+    width: 100%;
+    height: 20px;
+    p {
+      color: #000000;
+      font-size: 12px;
+      font-weight: 700;
+    }
+  }
+  .block__text {
+    margin-top: 8px;
+    width: 100%;
+    height: 60px;
+    p {
+      color: #676767;
+      font-size: 12px;
+      font-weight: 400px;
+    }
+  }
+  .block__images {
+    margin-top: 16px;
+  }
+}
+
+
