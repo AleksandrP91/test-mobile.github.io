@@ -16,6 +16,7 @@
         color: #676767;
         font-size: 12px;
         font-weight: 400;
+        font-family: 'Helvetica Neue';
       }
     }
     .square__price {
@@ -29,6 +30,7 @@
         color: #000000;
         font-size: 30px;
         font-weight: 400;
+        font-family: 'Helvetica Neue';
       }
     }
     .square__per-month {
@@ -42,6 +44,7 @@
         color: #000000;
         font-size: 16px;
         font-weight: 400;
+        font-family: 'Helvetica Neue';
       }
     }
     .square__text {
@@ -55,6 +58,7 @@
         color: #676767;
         font-size: 8px;
         font-weight: 400;
+        font-family: 'Helvetica Neue';
       }
     }
     .square__month {
@@ -68,6 +72,7 @@
         color: #676767;
         font-size: 24px;
         font-weight: 400;
+        font-family: 'Helvetica Neue';
       }
     }
     .square__sale {
@@ -76,7 +81,7 @@
       right: 49px;
       width: 105px;
       height: 56px;
-      background-color: #FEF653;
+      background-color: #fef653;
       .sale__discount {
         margin: 10px 0 0 20px;
         width: 35px;
@@ -86,6 +91,7 @@
           color: #000000;
           font-size: 14px;
           font-weight: 400;
+          font-family: 'Space Grotesk';
         }
       }
       .sale__text {
@@ -97,6 +103,7 @@
           color: #676767;
           font-size: 8px;
           font-weight: 400;
+          font-family: 'Helvetica Neue';
         }
       }
     }
@@ -109,7 +116,7 @@
     input {
       border: none;
       outline: none;
-      border-bottom: 1px solid rgba(0, 0, 0, .3);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
       color: #676767;
       font-size: 12px;
       font-weight: 400;

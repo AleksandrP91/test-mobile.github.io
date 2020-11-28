@@ -2,17 +2,35 @@
   font-family: 'Space Grotesk';
   src: url('../fonts/SpaceGrotesk-Regular.ttf');
   font-weight: 400;
-  font-style: regular;
+  font-style: normal;
 }
 @font-face {
   font-family: 'Space Grotesk';
   src: url('../fonts/SpaceGrotesk-Medium.ttf');
   font-weight: 500;
-  font-style: medium;
+  font-style: normal;
 }
 @font-face {
   font-family: 'Space Grotesk';
   src: url('../fonts/SpaceGrotesk-Bold.ttf');
   font-weight: 700;
-  font-style: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/HelveticaNeue.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/HelveticaNeue-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/HelveticaNeue-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
 }

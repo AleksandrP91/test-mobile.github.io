@@ -11,7 +11,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
 }
 // body {
 //   -webkit-font-smoothing: antialiased;
@@ -20,5 +20,15 @@
   width: 312px;
   height: 2px;
   margin: 0 auto;
+}
+@media (min-width: 767px) {
+  .hr {
+    width: 767px;
+  }
+}
+@media (min-width: 1270px) {
+  .hr {
+    width: 1270px;
+  }
 }
 
