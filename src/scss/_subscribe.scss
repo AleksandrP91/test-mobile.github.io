@@ -1,0 +1,21 @@
+.subscribe {
+  margin-top: 76px;
+  .container {
+    width: 312px;
+    margin: 0 auto;
+  }
+  .subscribe__title {
+    width: 312px;
+    height: 72px;
+    color: #f4f4f4;
+    line-height: 33px;
+    span {
+      display: inline;
+      background-color: #1519ff;
+      text-transform: uppercase;
+      box-shadow: 0 0 0 #1519ff, 5px 0 0 #1519ff;
+      font-size: 30px;
+      font-weight: 500;
+    }
+  }
+}

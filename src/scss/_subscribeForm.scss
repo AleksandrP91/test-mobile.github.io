@@ -1,0 +1,137 @@
+.block-form {
+  margin-top: 32px;
+  .subscribe__square {
+    position: relative;
+    width: 320px;
+    height: 239px;
+    background-color: #f4f4f4;
+    .square__title {
+      position: absolute;
+      top: 24px;
+      left: 16px;
+      min-width: 107px;
+      height: 20px;
+      line-height: 20px;
+      p {
+        color: #676767;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+    .square__price {
+      position: absolute;
+      top: 68px;
+      left: 16px;
+      min-width: 134px;
+      height: 30px;
+      line-height: 30px;
+      p {
+        color: #000000;
+        font-size: 30px;
+        font-weight: 400;
+      }
+    }
+    .square__per-month {
+      position: absolute;
+      top: 112px;
+      left: 16px;
+      width: 74px;
+      height: 27px;
+      line-height: 27px;
+      p {
+        color: #000000;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+    .square__text {
+      position: absolute;
+      top: 163px;
+      left: 16px;
+      width: 118px;
+      height: 11px;
+      line-height: 11px;
+      p {
+        color: #676767;
+        font-size: 8px;
+        font-weight: 400;
+      }
+    }
+    .square__month {
+      position: absolute;
+      top: 178px;
+      left: 16px;
+      min-width: 150px;
+      height: 41px;
+      line-height: 41px;
+      p {
+        color: #676767;
+        font-size: 24px;
+        font-weight: 400;
+      }
+    }
+    .square__sale {
+      position: absolute;
+      top: 68px;
+      right: 49px;
+      width: 105px;
+      height: 56px;
+      background-color: #FEF653;
+      .sale__discount {
+        margin: 10px 0 0 20px;
+        width: 35px;
+        height: 20px;
+        line-height: 20px;
+        p {
+          color: #000000;
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+      .sale__text {
+        margin: 5px 0 0 20px;
+        min-width: 65px;
+        height: 11px;
+        line-height: 11px;
+        p {
+          color: #676767;
+          font-size: 8px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  .form {
+    margin-top: 32px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    input {
+      border: none;
+      outline: none;
+      border-bottom: 1px solid rgba(0, 0, 0, .3);
+      color: #676767;
+      font-size: 12px;
+      font-weight: 400;
+      padding: 0 0 8px 0;
+      margin-bottom: 24px;
+    }
+    input::placeholder {
+      color: #676767;
+    }
+    .btn {
+      margin-top: 8px;
+      width: 106px;
+      height: 22px;
+      border: none;
+      border-bottom: 1px solid #000000;
+      background-color: #ffffff;
+      color: #000000;
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: uppercase;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+}
