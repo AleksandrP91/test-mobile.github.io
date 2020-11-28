@@ -1,6 +1,6 @@
 .izabella__block {
   margin-top: 34px;
-  border-top: 1px solid rgba(0, 0, 0, .3);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
   .block__title {
     margin-top: 16px;
     width: 100%;
@@ -47,4 +47,117 @@
   }
 }
 
-
+// media 767px
+@media (min-width: 767px) {
+  .izabella__block {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row-reverse;
+    border: none;
+    .block__title {
+      margin: 20px 0 0 18px;
+      width: 343px;
+      height: 25px;
+      p {
+        font-size: 18px;
+      }
+    }
+    .block__descr {
+      margin: 4px 0 0 18px;
+      width: 343px;
+      height: 24px;
+      p {
+        font-size: 14px;
+      }
+    }
+    .block__time {
+      margin: 20px 0 0 18px;
+      width: 343px;
+      height: 24px;
+      p {
+        font-size: 14px;
+      }
+    }
+    .block__text {
+      margin: 8px 0 0 18px;
+      width: 343px;
+      height: 72px;
+      line-height: 24px;
+      p {
+        font-size: 14px;
+      }
+    }
+    .block__images {
+      margin: 0;
+      img {
+        width: 343px;
+        height: 343px;
+      }
+    }
+  }
+  .block-one {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+  }
+}
+@media (min-width: 1270px) {
+  .izabella__block {
+    .block__title {
+      margin: 24px 0 0 32px;
+      width: 294px;
+      height: 28px;
+      p {
+        font-size: 16px;
+      }
+    }
+    .block__descr {
+      margin: 4px 0 0 32px;
+      width: 293px;
+      height: 27px;
+      p {
+        font-size: 16px;
+      }
+    }
+    .block__time {
+      margin: 24px 0 0 32px;
+      width: 294px;
+      height: 27px;
+      p {
+        font-size: 16px;
+      }
+    }
+    .block__text {
+      margin: 12px 0 0 32px;
+      width: 293px;
+      height: 108px;
+      line-height: 24px;
+      p {
+        font-size: 16px;
+      }
+    }
+    .block__images {
+      margin: 0;
+      img {
+        width: 294px;
+        height: 294px;
+      }
+    }
+  }
+  .block-one {
+    width: 325px;
+  }
+  .izabella__block.row-reverse {
+    flex-direction: row; 
+    .block__title {
+      margin: 24px 0 0 0;
+    }
+    .block__descr {
+      margin: 4px 0 0 0;
+    }
+    .block__time {
+      margin: 24px 0 0 0;
+    }
+    .block__text {
+      margin: 12px 0 0 0;
+    }
+  }
+}
