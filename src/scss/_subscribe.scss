@@ -20,3 +20,24 @@
     }
   }
 }
+
+// media
+@media (min-width: 767px) {
+  .subscribe {
+    .container {
+      width: 704px;
+      .subscribe__title {
+        width: 704px;
+        height: 43px;
+        line-height: 40px;
+        span {
+          font-size: 36px;
+        }
+      }
+      .subscribe__wrapp {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}

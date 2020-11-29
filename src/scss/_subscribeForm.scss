@@ -9,7 +9,7 @@
       position: absolute;
       top: 24px;
       left: 16px;
-      min-width: 107px;
+      width: 107px;
       height: 20px;
       line-height: 20px;
       p {
@@ -120,6 +120,7 @@
       color: #676767;
       font-size: 12px;
       font-weight: 400;
+      font-family: 'Helvetica Neue';
       padding: 0 0 8px 0;
       margin-bottom: 24px;
     }
@@ -141,6 +142,92 @@
       text-transform: uppercase;
       cursor: pointer;
       outline: none;
+    }
+  }
+}
+
+// media
+@media (min-width: 767px) {
+  .block-form {
+    margin-top: 48px;
+    .subscribe__square {
+      width: 343px;
+      height: 248px;
+      .square__title {
+        top: 32px;
+        width: 124px;
+        height: 24px;
+        line-height: 24px;
+        p {
+          font-size: 14px;
+        }
+      }
+      .square__price {
+        top: 76px;
+        width: 147px;
+        height: 32px;
+        line-height: 32px;
+        p {
+          font-size: 32px;
+        }
+      }
+      .square__per-month {
+        top: 120px;
+        width: 74px;
+        height: 27px;
+        line-height: 27px;
+        p {
+          font-size: 16px;
+        }
+      }
+      .square__text {
+        top: 171px;
+        width: 148px;
+        height: 14px;
+        line-height: 14px;
+        p {
+          font-size: 10px;
+        }
+      }
+      .square__month {
+        top: 189px;
+        width: 100px;
+        height: 27px;
+        line-height: 27px;
+        p {
+          font-size: 16px;
+          text-decoration: line-through;
+        }
+      }
+      .square__sale {
+        top: 78px;
+        right: 41px;
+        width: 121px;
+        height: 61px;
+        .sale__discount {
+          width: 40px;
+          height: 20px;
+          line-height: 20px;
+          p {
+            font-size: 16px;
+          }
+        }
+        .sale__text {
+          width: 81px;
+          height: 14px;
+          line-height: 14px;
+          p {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+    .form {
+      width: 343px;
+      input {
+        width: 343px;
+        font-size: 14px;
+      }
     }
   }
 }

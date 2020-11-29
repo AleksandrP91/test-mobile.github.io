@@ -1,6 +1,6 @@
 .block-start {
+  margin-top: 48px;
   .subscribe__start {
-    margin-top: 48px;
     display: flex;
     align-items: center;
     .start {
@@ -58,6 +58,46 @@
       font-size: 16px;
       font-weight: 400;
       font-family: 'Helvetica Neue';
+    }
+  }
+}
+
+// media
+@media (min-width: 767px) {
+  .block-start {
+    .subscribe__start {
+      .start {
+        width: 59px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 18px;
+      }
+      .month {
+        width: 68px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 14px;
+      }
+    }
+    .subscrube__remained {
+      .remained {
+        width: 93px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 18px;
+      }
+      .seats {
+        width: 53px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 14px;
+      }
+    }
+    .subscrube__text {
+      width: 343px;
+      p {
+        font-size: 16px;
+      }
     }
   }
 }
