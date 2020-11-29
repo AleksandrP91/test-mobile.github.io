@@ -1,12 +1,12 @@
 .block-start {
-  margin-top: 48px;
+  // margin-top: 48px;
   .subscribe__start {
     display: flex;
     align-items: center;
     .start {
       margin-right: 8px;
-      width: 46px;
-      height: 20px;
+      min-width: 46px;
+      min-height: 20px;
       color: #000000;
       font-size: 14px;
       font-weight: 500;
@@ -15,8 +15,8 @@
       line-height: 20px;
     }
     .month {
-      width: 266px;
-      height: 20px;
+      min-width: 266px;
+      min-height: 20px;
       color: #676767;
       font-size: 12px;
       font-weight: 400;
@@ -29,8 +29,8 @@
     display: flex;
     .remained {
       margin-right: 8px;
-      width: 72px;
-      height: 20px;
+      min-width: 72px;
+      min-height: 20px;
       color: #000000;
       font-size: 14px;
       font-weight: 500;
@@ -39,8 +39,8 @@
       line-height: 20px;
     }
     .seats {
-      width: 240px;
-      height: 20px;
+      min-width: 240px;
+      min-height: 20px;
       color: #676767;
       font-size: 12px;
       font-weight: 400;
@@ -50,14 +50,24 @@
   }
   .subscrube__text {
     margin-top: 32px;
-    width: 320px;
-    height: 81px;
+    min-width: 320px;
+    min-height: 81px;
     line-height: 27px;
     p {
       color: #676767;
       font-size: 16px;
       font-weight: 400;
       font-family: 'Helvetica Neue';
+    }
+    .desktop {
+      color: #676767;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: 'Helvetica Neue';
+      display: none;
+    }
+    .text-desktop {
+      display: none;
     }
   }
 }
@@ -73,22 +83,22 @@
         font-size: 18px;
       }
       .month {
-        width: 68px;
-        height: 24px;
+        min-width: 68px;
+        min-height: 24px;
         line-height: 24px;
         font-size: 14px;
       }
     }
     .subscrube__remained {
       .remained {
-        width: 93px;
-        height: 25px;
+        min-width: 93px;
+        min-height: 25px;
         line-height: 25px;
         font-size: 18px;
       }
       .seats {
-        width: 53px;
-        height: 24px;
+        min-width: 53px;
+        min-height: 24px;
         line-height: 24px;
         font-size: 14px;
       }
@@ -97,6 +107,54 @@
       width: 343px;
       p {
         font-size: 16px;
+      }
+    }
+  }
+}
+@media (min-width: 1270px) {
+  .block-start {
+    .subscribe__start {
+      .start {
+        margin-right: 14px;
+        min-width: 65px;
+        min-height: 28px;
+        line-height: 28px;
+        font-size: 20px;
+      }
+      .month {
+        min-width: 78px;
+        min-height: 27px;
+        line-height: 27px;
+        font-size: 16px;
+      }
+    }
+    .subscrube__remained {
+      margin-top: 27px;
+      .remained {
+        margin-right: 14px;
+        min-width: 103px;
+        min-height: 28px;
+        line-height: 28px;
+        font-size: 20px;
+      }
+      .seats {
+        min-width: 61px;
+        min-height: 27px;
+        line-height: 27px;
+        font-size: 16px;
+      }
+    }
+    .subscrube__text {
+      margin-top: 48px;
+      min-width: 619px;
+      min-height: 82px;
+      line-height: 40px;
+      p {
+        display: none;
+      }
+      .text-desktop {
+        font-size: 24px;
+        display: block;
       }
     }
   }

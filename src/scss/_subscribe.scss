@@ -5,8 +5,8 @@
     margin: 0 auto;
   }
   .subscribe__title {
-    width: 312px;
-    height: 72px;
+    min-width: 312px;
+    min-height: 72px;
     color: #f4f4f4;
     line-height: 33px;
     span {
@@ -19,6 +19,9 @@
       font-family: 'Space Grotesk';
     }
   }
+  .subscribe__wrapp {
+    margin-top: 48px;
+  }
 }
 
 // media
@@ -27,16 +30,36 @@
     .container {
       width: 704px;
       .subscribe__title {
-        width: 704px;
-        height: 43px;
+        min-width: 704px;
+        min-height: 43px;
         line-height: 40px;
         span {
           font-size: 36px;
         }
       }
       .subscribe__wrapp {
+        margin-top: 48px;
         display: flex;
         justify-content: space-between;
+      }
+    }
+  }
+}
+@media (min-width: 1270px) {
+  .subscribe {
+    .container {
+      position: relative;
+      width: 1270px;
+      .subscribe__title {
+        min-width: 1270px;
+        min-height: 86px;
+        line-height: 86px;
+        span {
+          font-size: 72px;
+        }
+      }
+      .subscribe__wrapp {
+        margin-top: 48px;
       }
     }
   }

@@ -6,10 +6,10 @@
   }
 }
 .izabella__title {
-  width: 312px;
-  height: 72px;
+  min-width: 312px;
+  min-height: 72px;
   color: #f4f4f4;
-  line-height: 33px;
+  line-height: 34px;
   span {
     display: inline;
     background-color: #1519ff;
@@ -34,8 +34,8 @@
     }
   }
   .izabella__title {
-    width: 704px;
-    height: 58px;
+    min-width: 704px;
+    min-height: 58px;
     span {
       line-height: 58px;
       box-shadow: 0 0 0 #1519ff, 5px 0 0 #1519ff;
@@ -57,8 +57,8 @@
     }
   }
   .izabella__title {
-    width: 1270px;
-    height: 86px;
+    min-width: 1270px;
+    min-height: 86px;
     span {
       line-height: 86px;
       box-shadow: 0 0 0 #1519ff, 5px 0 0 #1519ff;
